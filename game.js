@@ -4,7 +4,6 @@ function getComputerChoice(option) {
     let item = option[optionIndex];
     return item;
 }
-console.log(getComputerChoice(option));
 function playRound(playerSelection, computerSelection) {
     if (playerSelection == "Rock" && computerSelection == "Paper"){
         console.log("You Lose! Paper beats Rock")
